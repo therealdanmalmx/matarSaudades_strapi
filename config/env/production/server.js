@@ -1,3 +1,3 @@
 module.exports = ({ env }) => ({
-  url: env("NF_HOSTS_CUSTOM", ""),
+  url: env("RENDER_EXTERNAL_URL", ""),
 });
